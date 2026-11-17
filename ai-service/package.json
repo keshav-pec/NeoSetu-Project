@@ -1,0 +1,19 @@
+{
+  "name": "neosetu-ai-service",
+  "version": "1.0.0",
+  "description": "NeoSetu AI Service: hidden meeting agent for live captions and summaries",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@livekit/rtc-node": "^0.13.29",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.2",
+    "ws": "^8.21.0"
+  }
+}
